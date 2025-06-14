@@ -53,3 +53,11 @@ img {
     cursor: pointer;
     user-select: none;
 }
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}

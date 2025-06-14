@@ -2,8 +2,60 @@
 <html lang="en">
     <head>
         <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="advanced.css">
     </head>
     <body>
-
+        <div>
+            <ul class="navbar-google">
+                <div id="logo">
+                    <img src="https://gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo">
+                </div>
+                <li class="navbar-item-google"><a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+        <div class="appbar">
+            <label style="margin-left: 20px;">Advanced Search</label>
+        </div>
+        <hr style="color: #ebebeb;">
+        <div class="div-advanced">
+            <h2 class="h2-advanced">Find pages with...</h2>
+            <form action="https://google.com/search">
+                <div class="row-input">
+                    <div class="left">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_q" class="form-input">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_epq" class="form-input">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_oq" class="form-input">
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="as_eq" class="form-input">
+                    </div>
+                </div>
+                <div class="advanced">
+                    <button class="btn-advanced">Advanced</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
