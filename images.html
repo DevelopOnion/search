@@ -2,8 +2,23 @@
 <html lang="en">
     <head>
         <title>Google Images</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <div>
+            <ul class="navbar-google">
+                <li class="navbar-item-google"><a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+        <div class="center-div">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Google_Images_2015_logo.svg" alt="Google Logo">
+        </div>
+        <form action="https://google.com/search">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="text" name="q" class="rounded-input">
+            <div class="center-div">
+                <input type="submit" value="Google Image" class="btn-search">
+            </div>
+        </form>
     </body>
 </html>
